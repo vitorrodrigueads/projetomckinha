@@ -4,12 +4,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Faz o site se adaptar ao tamanho da tela (responsivo) --> 
     <title>McKinha laanches</title> 
      <link rel="stylesheet" href="estilo.css"><!-- Aqui você pode colocar o link do CSS externo -->
+      
      </head>
       <body> 
         
         <header> 
             <img src="0f9f77f0-bf90-4f63-8b3a-c159c26977cb.png" alt="Banner da McKINHA" class="banner"> 
     </header> 
+    <section id="info">
+          <h2> Tempo de espera</h2>
+          <p>Nosso tempo de espera e de 30 a 40 minutos.</p>
+   </section>
+
+   <section id="menu">
+
+     <div class="tabs">
+  <div class="tab active" data-tab="hamburguer">Hambúrguer</div>
+  <div class="tab" data-tab="cachorro">Cachorro-Quente</div>
+  <div class="tab" data-tab="bebidas">Bebidas</div>
+</div>
+
+
+     <div id="hamburguer" class="tab-content active">
+      <p>Delisiosos hambúrguer com ingredientes frescos.</p>
+      <ul>
+        <li>Hamburguer - R$ 10,00</li>
+        <li>X-Calabresa - R$ 12,00</li>
+        <li>X-Bacon - R$ 13,00</li>
+        <li>X-Tudo - R$ 14,00</li>
+        <li>X-Duplo - R$ 18,00</li>
+        <li>X-Fome - R$ 22,00</li>
+        
+      </ul>
+    </div>
+
+    <div id="cachorro" class="tab-content">
+      <p>Cachorros-quentes tradicionais e especiais.</p>
+      <ul>
+        <li>Cachorro Quente (Salsicha) - R$ 10,00</li>
+        <li>Cachorro Quente (Linguiça) - R$ 11,00</li>
+        <li>Pizaa Brotinho - R$ 9,00</li>
+        <li>Sanduíche Natural - R$ 10,00</li>
+      </ul>
+    </div>
+
+    <div id="bebidas" class="tab-content">
+      
+      <p>Refrigerantes, sucos e mais.</p>
+      <ul>
+        <li>Refrigerante lata - R$ 5,00</li>
+        <li>Suco natural - R$ 7,00</li>
+        <li>Água mineral - R$ 3,00</li>
+      </ul>
+
+      <button id="topButton" title="Voltar ao topo">↑ Topo</button>
+     
+    </div>
+   </section>
+   <script src="script.js"></script>
 
 </body> 
 </html>

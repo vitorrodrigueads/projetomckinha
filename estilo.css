@@ -10,3 +10,81 @@ header { width: 100%; }
     }
     
     body{ background-color:  #2b140c;}
+
+      section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    #info {
+      background-color: #4e2a00;
+      border-radius: 8px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    #info h2 {
+      margin-bottom: 10px;
+      font-size: 28px;
+    }
+
+    #info p {
+      font-size: 18px;
+    }
+
+    #menu {
+      background-color: #5e3a00;
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    /* Estilo das abas */
+    .tabs {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      gap: 15px;
+    }
+
+    .tab {
+      background-color: #4e2a00;
+      padding: 10px 20px;
+      border-radius: 25px;
+      cursor: pointer;
+      user-select: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .tab.active {
+      background-color: #d98c3a;
+      color: #3d1c00;
+      font-weight: bold;
+    }
+
+    /* Conteúdo das abas */
+    .tab-content {
+      display: none;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    /* Botão para subir a página */
+    #topButton {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background-color: #d98c3a;
+      border: none;
+      padding: 12px 18px;
+      border-radius: 25px;
+      cursor: pointer;
+      color: #3d1c00;
+      font-weight: bold;
+      display: none;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    }
